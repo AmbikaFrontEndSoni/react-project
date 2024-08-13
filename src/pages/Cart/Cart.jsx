@@ -75,7 +75,7 @@ const Cart = ({ cart, handleDec, handleInc }) => {
         </>
       )}
 
-      <Link to="/">Back to home</Link>
+      <Link to="/React-project-E-commerce/">Back to home</Link>
     </>
   );
 };

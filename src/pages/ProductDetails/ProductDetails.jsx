@@ -37,13 +37,13 @@ const ProductDetails = ({ addToCart }) => {
               </p>
              
               <br />
-              <Link to="/cart" onClick={() => addToCart(data)}>
+              <Link to="/React-project-E-commerce/cart" onClick={() => addToCart(data)}>
                 <button className="btn btn-dark">Add to cart</button>
               </Link>
             </div>
           </div>
         </div>
-        <Link to="/">Back to home</Link>
+        <Link to="/React-project-E-commerce/">Back to home</Link>
       </center>
     </>
   );

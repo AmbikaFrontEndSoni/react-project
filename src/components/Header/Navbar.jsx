@@ -53,7 +53,7 @@ const Navbar = (props) => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
               <li className="nav-item px-3">
-                <NavLink className="nav-link" aria-current="page" to="/">
+                <NavLink className="nav-link" aria-current="page" to="/React-project-E-commerce/">
                   Home
                 </NavLink>
               </li>
@@ -71,22 +71,22 @@ const Navbar = (props) => {
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <NavLink className="dropdown-item" to="/men">
+                    <NavLink className="dropdown-item" to="/React-project-E-commerce/men">
                       Men
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/women">
+                    <NavLink className="dropdown-item" to="/React-project-E-commerce/women">
                       Women
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/electronics">
+                    <NavLink className="dropdown-item" to="/React-project-E-commerce/electronics">
                       Electronic
                     </NavLink>
                   </li>
                   <li>
-                    <NavLink className="dropdown-item" to="/jewelery">
+                    <NavLink className="dropdown-item" to="/React-project-E-commerce/jewelery">
                       Jewelery
                     </NavLink>
                   </li>
@@ -98,13 +98,13 @@ const Navbar = (props) => {
                 <NavLink
                   className="nav-link "
                   aria-current="page"
-                  to="/contact"
+                  to="/React-project-E-commerce/contact"
                 >
                   Contact Us
                 </NavLink>
               </li>
               <li className="nav-item ps-3 d-flex btn_nav_link">
-                <NavLink to="/cart">
+                <NavLink to="/React-project-E-commerce/cart">
                   <i className="fa-sharp fa-solid fa-cart-shopping mt-2 cart fs-20"></i>
                   <p className="cart_length" style={{ position: "absolute" }}>
                     {props.size}

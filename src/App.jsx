@@ -15,6 +15,7 @@ import Men from "./pages/Men/Men";
 import Women from "./pages/Women/Women";
 import Electronics from "./pages/Electronics/Electronics";
 import Jewelery from "./pages/Jewelery/Jewelery";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -74,6 +75,7 @@ function App() {
 
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer/>
     </>
   );
 }

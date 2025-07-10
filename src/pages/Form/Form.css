@@ -7,4 +7,9 @@ span{
     padding: 20px;
     margin-top: 5px;
     font-size: 14px;
+    color:maroon;
+  }
+  .btn{
+    background-color: maroon;
+    color:white
   }

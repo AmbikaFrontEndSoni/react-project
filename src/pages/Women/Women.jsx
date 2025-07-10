@@ -38,9 +38,9 @@ const Women = ({ addToCart }) => {
                 <p>Title : {value.title}</p>
                 <br />
                 <div className="button-container">
-                  <Link to={`/React-project-E-commerce/productDetails/${value.id}`}>
+                  {/* <Link to={`/React-project-E-commerce/productDetails/${value.id}`}>
                     <button className="card-button">Read More</button>
-                  </Link>
+                  </Link> */}
                   <Link to="/React-project-E-commerce/cart">
                     <button
                       onClick={() => addToCart(value)}

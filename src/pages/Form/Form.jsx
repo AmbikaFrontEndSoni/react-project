@@ -105,7 +105,7 @@ const Form = () => {
   };
 
   return (
-    <div className="col-sm-12 col-md-12 col-lg-6 m-auto">
+    <div className="col-sm-12 col-md-12 col-lg-6 m-auto mt-5">
       <form className="row g-3 contact_form" onSubmit={formHandler}>
         <div className="col-12">
           <label htmlFor="inputName" className="form-label">
@@ -206,7 +206,7 @@ const Form = () => {
         <div className="col-lg-3 col-md-12 col-sm-12">
           <button
             type="submit"
-            className="btn form_btn w-100 bg-dark text-white p-1 fs-6"
+            className="btn form_btn w-100 text-white p-1 fs-6"
           >
             Sign in
           </button>

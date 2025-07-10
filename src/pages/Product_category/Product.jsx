@@ -61,6 +61,3 @@ const Product = ({ addToCart }) => {
 
 export default Product;
 
-fetch("https://fakestoreapi.com/products/categories")
-  .then((res) => res.json())
-  .then((json) => console.log(json));

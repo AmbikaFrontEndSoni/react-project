@@ -10,7 +10,7 @@ const Cart = ({ cart, handleDec, handleInc }) => {
     <>
       {!cart && <Loader />}
       {cart && cart.length === 0 && (
-        <div className="container">
+        <div className="container max-height: 100%;">
           <div className="row">
             <h1 className="text-center">Empty Cart</h1>
           </div>
@@ -41,9 +41,9 @@ const Cart = ({ cart, handleDec, handleInc }) => {
                   >
                     -
                   </button>
-                  <button className="btn btn-dark">{value.quantity}</button>
+                  <button className="btn">{value.quantity}</button>
                   <button
-                    className="btn btn-dark"
+                    className="btn"
                     onClick={() => handleInc(value.id)}
                   >
                     +
@@ -75,7 +75,7 @@ const Cart = ({ cart, handleDec, handleInc }) => {
         </>
       )}
 
-      <Link to="/React-project-E-commerce/">Back to home</Link>
+      <Link to="/React-project-E-commerce/" className="text-dark mt-5">Back to home</Link>
     </>
   );
 };

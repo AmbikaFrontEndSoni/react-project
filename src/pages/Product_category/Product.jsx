@@ -24,7 +24,7 @@ const Product = ({ addToCart }) => {
           {data.map((value) => (
             <div className="card" key={value.id}>
               <figure>
-              <Link to={`/productDetails/${value.id}`}>
+              <Link to={`/react-project/productDetails/${value.id}`}>
                   <img src={value.image} alt={value.title} />
                 </Link>
               </figure>
@@ -41,7 +41,7 @@ const Product = ({ addToCart }) => {
                   <Link to={`/productDetails/${value.id}`}>
                     <button className="card-button">Read More</button>
                   </Link>
-                  <Link to="/cart">
+                  <Link to="/react-project/cart">
                     <button
                       onClick={() => addToCart(value)}
                       className="card-button"

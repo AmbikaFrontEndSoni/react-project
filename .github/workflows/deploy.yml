@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Add remote
-        run: git remote add origin https://github.com/username/repo.git
+        run: git remote add origin https://github.com/AmbikaFrontEndSoni/repo.git
 
       - name: Setup Node
         uses: actions/setup-node@v1

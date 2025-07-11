@@ -38,13 +38,13 @@ const ProductDetails = ({ addToCart }) => {
                   <Rating stars={data.rating?.rate} />
                 </div>
                 <br />
-              <Link to="/cart" onClick={() => addToCart(data)}>
+              <Link to="/react-project/cart" onClick={() => addToCart(data)}>
                 <button className="btn text-white" style={{background:"maroon"}}>Add to cart</button>
               </Link>
             </div>
           </div>
         </div>
-        <Link to="/" className="text-dark">Back to home</Link>
+        <Link to="/react-project/" className="text-dark">Back to home</Link>
       </center>
     </>
   );

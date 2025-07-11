@@ -75,7 +75,7 @@ const Cart = ({ cart, handleDec, handleInc }) => {
         </>
       )}
 
-      <Link to="/React-project-E-commerce/" className="text-dark mt-5">Back to home</Link>
+      <Link to="/react-project/" className="text-dark mt-5">Back to home</Link>
     </>
   );
 };

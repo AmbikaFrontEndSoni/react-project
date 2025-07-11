@@ -59,7 +59,7 @@ const Home = ({ addToCart }) => {
           {data.map((value) => (
             <div className="card " key={value.id}>
               <figure>
-                <Link to={`/React-project-E-commerce/productDetails/${value.id}`}>
+                <Link to={`/react-project/productDetails/${value.id}`}>
                   <img src={value.image} alt={value.title} />
                 </Link>
               </figure>
@@ -76,7 +76,7 @@ const Home = ({ addToCart }) => {
                   {/* <Link to={`/React-project-E-commerce/productDetails/${value.id}`}>
                     <button className="card-button">Read More</button>
                   </Link> */}
-                  <Link to="/React-project-E-commerce/cart">
+                  <Link to="/react-project/cart">
                     <button
                       onClick={() => addToCart(value)}
                       className="card-button"

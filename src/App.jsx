@@ -50,24 +50,24 @@ function App() {
     <>
       <Navbar size={cart.length} />
       <Routes>
-        <Route path="/React-project-E-commerce/" element={<Home addToCart={addToCart} />} />
+        <Route path="/react-project/" element={<Home addToCart={addToCart} />} />
        
-        <Route path="/React-project-E-commerce/product" element={<Product addToCart={addToCart} />} />
-        <Route path="/React-project-E-commerce/men" element={<Men addToCart={addToCart} />} />
-        <Route path="/React-project-E-commerce/women" element={<Women addToCart={addToCart} />} />
+        <Route path="/react-project/product" element={<Product addToCart={addToCart} />} />
+        <Route path="/react-project/men" element={<Men addToCart={addToCart} />} />
+        <Route path="/react-project/women" element={<Women addToCart={addToCart} />} />
         <Route
-          path="/React-project-E-commerce/electronics"
+          path="/react-project/electronics"
           element={<Electronics addToCart={addToCart} />}
         />
-        <Route path="/React-project-E-commerce/jewelery" element={<Jewelery addToCart={addToCart} />} />
+        <Route path="/react-project/jewelery" element={<Jewelery addToCart={addToCart} />} />
 
         <Route
-          path="/React-project-E-commerce/productDetails/:id"
+          path="/react-project/productDetails/:id"
           element={<ProductDetails addToCart={addToCart} />}
         />
-        <Route path="/React-project-E-commerce/contact" element={<Form />} />
+        <Route path="/react-project/contact" element={<Form />} />
         <Route
-          path="/React-project-E-commerce/cart"
+          path="/react-project/cart"
           element={
             <Cart cart={cart} handleDec={handleDec} handleInc={handleInc} />
           }
